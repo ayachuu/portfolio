@@ -1,8 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
-    <p>Hello world</p>
+    <header id="header">
+      <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Ayana’s Work"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="icon" src="./img/icon-instagram.png" alt="Twitter">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
+          <img src="img/mainvisual-pc.jpg" alt="テキストテキストテキスト">
+        </picture>
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <ul>
+          <li>Ayana Takami 【高見　綾菜】</li>
+          <li>幼稚園教諭　（１０年勤務）</li>
+          <li>総合病院　内科診療補助　（４年勤務）</li>
+          <li>Tech Camp １０３期卒業（２０２１年６月７日~８月１３日）</li>
+        </ul>
+        <p>
+         　愛知県名古屋市在住。<br/>
+          サービス業を１４年携わり、人とのコミュニーケーション力を身につけ、今度はIT業へ進出しようと<br/>
+          一念発起！！<br/>
+          10週間・毎日11時間の学習を経て、プログラミングでアプリケーション作成ができるようになり、<br/>
+          無限にあるプログラミングの可能性にワクワクしています。<br/>
+          たくさん勉強してスキルアップしたいと思っています。<br/>
+          そして、たくさんの人にプログラミングの楽しさを伝えられるようになりたいです！！<br/>
+        </p>
+      </section>
+
+      <section id="works" class="wrapper">
+        <h2 class="sec-title">Works</h2>
+        <ul>
+          <li><img src="img/works1.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works2.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works3.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works4.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works5.jpg" alt="テキストテキストテキスト"></li>
+          <li><img src="img/works6.jpg" alt="テキストテキストテキスト"></li>
+        </ul>
+      </section>
+
+      
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p> Portfolio</p>
+    </footer>
+
   </body>
+
 </html>
