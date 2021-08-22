@@ -146,7 +146,7 @@ Contact
 /*-------------------------------------------
 フッター
 -------------------------------------------*/
-#footer {
+footer {
   background-color: #24292e;
   color: #fff;
   font-size: 0.5rem;
@@ -171,44 +171,29 @@ SP
   /*-------------------------------------------
   ヘッダー
   -------------------------------------------*/
-  #header {
+  header {
     max-width: 100%;
     height: auto;
     flex-direction: column;
   }
-  #header li {
+  header li {
     font-size: 0.8rem;
     margin-left: 20px;
   }
-  #header li:first-child {
+  header li:first-child {
     margin-left: 0;
   }
 
   /*-------------------------------------------
   Works
   -------------------------------------------*/
-  #works ul {
+  works ul {
     flex-direction: column;
   }
-  #works li {
+  works li {
     width: 100%;
   }
 
-  /*-------------------------------------------
-  News
-  -------------------------------------------*/
-  #news dl {
-    flex-direction: column;
-  }
-  #news dt {
-    width: 100%;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-  #news dd {
-    width: 100%;
-    padding-top: 0;
-  }
 
   /*-------------------------------------------
   Contact
