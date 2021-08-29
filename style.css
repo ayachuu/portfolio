@@ -101,7 +101,7 @@ header li img.icon {
   .left-content{
     width: 200px;
     height: 200px;
-    background-image: url("https://ayachuu.github.io/portfolio/images/IMG_3959.jpeg");
+    background-image: url("https://raw.githubusercontent.com/ayachuu/portfolio/main/images/IMG_3959.jpeg");
     background-size: cover;
     margin: 0 auto;
     border: 2px solid black;
@@ -116,7 +116,7 @@ header li img.icon {
 }
 .left-content{
   width: 40%;
-  background-image: url("https://ayachuu.github.io/portfolio/images/IMG_3959.jpeg");
+  background-image: url("https://raw.githubusercontent.com/ayachuu/portfolio/main/images/IMG_3959.jpeg");
   background-size: cover;
   margin: 8px;
   border: 2px solid black;
