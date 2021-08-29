@@ -1,0 +1,265 @@
+/* リセットCSS */
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 14px;
+  color: #24292e;
+  margin: 0 auto;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #24292e
+}
+img {
+  width: 100%;
+  height: 40vh;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+.site-title {
+  line-height: 1px;
+}
+.site-title a {
+  display: block;
+}
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+/* ヘッダー */
+header {
+  max-width:960px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 4%;
+  display: flex;
+  flex-wrap: wrap;
+}
+header ul{
+  display:flex;
+  padding: 10px 0;
+  flex-wrap: wrap;
+
+}
+header li {
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+header li a {
+  color: #24292e;
+}
+header li a:hover {
+  opacity: 0.7;
+}
+header li img.icon {
+  width: 20px;
+}
+.heading{
+  width: 50%;
+  margin-left: 30px;
+}
+.navbar{
+  width: 50%;
+  padding: 20px;
+}
+.nav-lists{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contents {
+  background-color: white;
+}
+
+.first-view{
+  height: 60vh;
+}
+
+/* About */
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media(max-width: 600px){
+  .left-content{
+    width: 200px;
+    height: 200px;
+    background-image: url("file:///Users/takamiayana/Desktop/IMG_3959.jpeg");
+    background-size: cover;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 8px;
+  }
+  .main-content{
+    flex-direction: column;
+  }
+  .star{
+    font-size: 0.5px;
+  }  
+}
+.left-content{
+  width: 40%;
+  background-image: url("file:///Users/takamiayana/Desktop/IMG_3959.jpeg");
+  background-size: cover;
+  margin: 8px;
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.right-content{
+  width: 50%;
+}
+.heading-name{
+  text-align: center;
+  border-bottom: 1px solid darkgray;
+  margin:40px auto;
+}
+.messages{
+  width: 500px;
+  margin: 20px;
+}
+.message{
+  font-size: 18px;
+}
+.info{
+  width: 400px;
+  margin: 0 auto;
+  border:1px solid darkgray;
+  overflow-wrap: break-word;
+}
+/* Works */
+.work{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.works-list{
+
+  margin: 30px;
+}
+.works-image{
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.works-text{
+  font-size: 16px;
+  text-align: center;
+}
+.readme{
+  color: blue;
+}
+/* skills */
+.skills-content{
+  margin: 0 auto;
+  width: 90%;
+}
+.first-items{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  width: 30%;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid darkgray;
+  background-color: rgba(190, 186, 186, 0.294);
+}
+.second-items{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.third-items{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-image{
+  width: 60%;
+  height: 45%;
+  padding-left: 20%;
+  margin-top: 10px;
+}
+.skill-name{
+  text-align: center;
+}
+.star{
+  width: 50%;
+}
+h3{
+  text-align: center;
+  font-size: 0.1em;
+}
+/* contact */
+.bottom-content {
+  height: 800px;
+  margin: 0 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.small-field, .large-field{
+  width: 50%;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #b5aaaa;
+  display: block;
+}
+.small-field{
+  margin: 0 auto 15px;
+}
+.large-field{
+  height: 200px;
+  margin: 0 auto 30px;
+}
+.send{
+  width: 15%;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: lightgray;
+  color: #24292e;
+  display: block;
+  border-radius: 20px;
+  transition: all 1s;
+}
+.send:hover{
+  background-color: cornsilk;
+}
+.infomation{
+  text-align: center;
+}
+
+
+/* フッター */
+footer {
+  height: 50px;
+  background-color: #f0f0f0;
+  text-align: center;
+  color: gray;
+}
