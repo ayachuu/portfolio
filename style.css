@@ -215,47 +215,15 @@ h3{
   font-size: 0.1em;
 }
 /* contact */
-.bottom-content {
-  height: 800px;
-  margin: 0 160px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.small-field, .large-field{
-  width: 50%;
-  font-size: 16px;
-  padding: 15px;
-  border: 1px solid #b5aaaa;
-  display: block;
-}
-.small-field{
-  margin: 0 auto 15px;
-}
-.large-field{
-  height: 200px;
-  margin: 0 auto 30px;
-}
-.send{
-  width: 15%;
-  margin: 0 auto;
-  padding: 15px;
-  border: 1px solid white;
-  background-color: lightgray;
-  color: #24292e;
-  display: block;
-  border-radius: 20px;
-  transition: all 1s;
-}
-.send:hover{
-  background-color: cornsilk;
-}
 .infomation{
   text-align: center;
 }
-
-
+.twitter:hover{
+  color: blue;
+}
+.blog:hover{
+  color: green;
+}
 /* フッター */
 footer {
   height: 50px;
